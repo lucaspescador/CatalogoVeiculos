@@ -4,12 +4,18 @@ public class Veiculo {
     private String marca;
     private String modelo;
     private int ano;
-    private Double valor;
+    private double valor;
 
-    public Veiculo(String placa) {
+    //construtor
+    public Veiculo(String placa, String marca, String modelo, int ano, double valor) {
         this.placa = placa;
-    }
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.valor = valor;
+    }    
 
+    //Placa
     public String getPlaca() {
         return placa;
     }
@@ -18,6 +24,8 @@ public class Veiculo {
         this.placa = placa;
     }
 
+
+    //Marca
     public String getMarca() {
         return marca;
     }
@@ -26,6 +34,7 @@ public class Veiculo {
         this.marca = marca;
     }
 
+    //Modelo
     public String getModelo() {
         return modelo;
     }
@@ -34,6 +43,7 @@ public class Veiculo {
         this.modelo = modelo;
     }
 
+    //Ano
     public int getAno() {
         return ano;
     }
@@ -42,11 +52,11 @@ public class Veiculo {
         this.ano = ano;
     }
 
-    public Double getValor() {
+    public double getValor() {
         return valor;
     }
 
-    public void setValor(Double valor) {
+    public void setValor(double valor) {
         this.valor = valor;
     }
 }
