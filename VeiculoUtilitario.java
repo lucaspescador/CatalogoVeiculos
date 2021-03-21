@@ -26,7 +26,7 @@ public class VeiculoUtilitario extends Veiculo {
 
     @Override
     public String toString(){
-        return "VeiculoUtilitario [ano=" + ano + ", marca=" + marca + ", modelo=" + modelo + ", placa=" + placa + 
-        ", valor=" + valor + ", capCargaTon=" + capCargaTon + ", nroEixos=" + nroEixos+ "]";
+        return "VeiculoUtilitario - placa:" + placa + ", marca:" + marca + ", modelo:" + modelo + 
+        ", ano:" + ano +  ", valor:" + valor + ", capCargaTon:" + capCargaTon + ", nroEixos:" + nroEixos;
     }
 }
